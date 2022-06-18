@@ -2,7 +2,7 @@ name: Heroku Deployment
 
 on:
   push:
-    branches: [master]
+    branches: [ master ]
 
 jobs:
   build:
@@ -16,5 +16,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "demo-example1-mufid"
+          heroku_app_name: "demo-mufid-demomufid"
           heroku_email: "imammufid98@gmail.com"
